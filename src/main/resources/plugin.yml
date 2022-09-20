@@ -1,0 +1,9 @@
+name: BasicCB
+version: '${project.version}'
+main: de.dieserbenni.basiccb.BasicCb
+api-version: 1.19
+
+commands:
+  hilfe:
+    usage: /hilfe
+    description: helpcommand

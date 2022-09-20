@@ -8,6 +8,7 @@ public final class BasicCb extends JavaPlugin {
     public void onEnable() {
 
         getCommand("hilfe").setExecutor(new HelpCommand());
+        getCommand("shop").setExecutor(new ShopCommand());
 
 
     }
